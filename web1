@@ -1,1 +1,36 @@
-11
+<!DOCTYPE html>  <!--文件的型態宣告，告訴瀏覽器我寫的是什麼-->
+<html>
+       <head>
+              <!--meta是附加資訊，告訴瀏覽器我用utf-8也就是萬國碼可以支援全世界語言-->
+              <meta charset="utf-8" />
+              <title> HIHI</title>
+       </head>
+       <!--網頁的主畫面都寫在 body 標籤中-->
+       <body>
+              <h3>我的個人資訊</h3>
+              <!--hr是指水平線，縮寫是單行一個</hr>-->
+              <hr/>
+              <a href="https://www.cakeresume.com/resumes/chih-hsuan-mai/draft" >我的履歷</a>
+              <h3>換行</h3>
+              <!--圖片位址簡寫為<img src="圖片位址" /> -->
+              <img src="TCP_截圖.png"></img>
+              <!--列表的練習-->
+              <h4>我的最愛</h4>
+              <ul>
+                     <li>456546</li>
+                     <li>
+                            <hr/>
+                            <a href="https://www.google.com">google</a>
+                     </li>
+              </ul>
+              <!--表格3x3練習-->
+              <table border="1" width="350" cellpadding="10">
+                     <!--第一列有幾格-->
+                     <tr>
+                            <td>11</td>
+                            <td>11</td>
+                            <td>11</td>
+                     </tr>
+              </table>
+       </body>
+</html>
